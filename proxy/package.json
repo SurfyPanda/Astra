@@ -1,0 +1,16 @@
+{
+  "name": "astra-opencode-proxy",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Local OpenAI-compatible bridge between ASTRA and a headless OpenCode agent runtime (free models, full tool access).",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "doctor": "node doctor.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

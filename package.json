@@ -1,0 +1,21 @@
+{
+  "name": "astra",
+  "private": true,
+  "version": "1.0.0",
+  "description": "ASTRA — an original AI assistant: React + CSS HUD, C# backend, pluggable LLM brain.",
+  "scripts": {
+    "install:all": "npm --prefix frontend install",
+    "proxy": "node proxy/server.js",
+    "doctor": "node proxy/doctor.js",
+    "backend": "dotnet run --project backend --urls http://localhost:5175",
+    "frontend": "npm --prefix frontend run dev",
+    "dev": "concurrently -n proxy,backend,frontend -c magenta,cyan,yellow \"npm run proxy\" \"npm run backend\" \"npm run frontend\"",
+    "start": "./start.sh",
+    "stop": "./stop.sh",
+    "test": "npm --prefix frontend test",
+    "build": "dotnet build backend && npm --prefix frontend run build"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}
