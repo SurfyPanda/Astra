@@ -1,0 +1,82 @@
+/Users/aaravvemula/Documents/astra-fixed/backend/bin/Debug/net10.0/appsettings.json
+/Users/aaravvemula/Documents/astra-fixed/backend/bin/Debug/net10.0/Astra.Backend.staticwebassets.endpoints.json
+/Users/aaravvemula/Documents/astra-fixed/backend/bin/Debug/net10.0/Astra.Backend
+/Users/aaravvemula/Documents/astra-fixed/backend/bin/Debug/net10.0/Astra.Backend.deps.json
+/Users/aaravvemula/Documents/astra-fixed/backend/bin/Debug/net10.0/Astra.Backend.runtimeconfig.json
+/Users/aaravvemula/Documents/astra-fixed/backend/bin/Debug/net10.0/Astra.Backend.dll
+/Users/aaravvemula/Documents/astra-fixed/backend/bin/Debug/net10.0/Astra.Backend.pdb
+/Users/aaravvemula/Documents/astra-fixed/backend/obj/Debug/net10.0/rpswa.dswa.cache.json
+/Users/aaravvemula/Documents/astra-fixed/backend/obj/Debug/net10.0/Astra.Backend.GeneratedMSBuildEditorConfig.editorconfig
+/Users/aaravvemula/Documents/astra-fixed/backend/obj/Debug/net10.0/Astra.Backend.AssemblyInfoInputs.cache
+/Users/aaravvemula/Documents/astra-fixed/backend/obj/Debug/net10.0/Astra.Backend.AssemblyInfo.cs
+/Users/aaravvemula/Documents/astra-fixed/backend/obj/Debug/net10.0/Astra.Backend.csproj.CoreCompileInputs.cache
+/Users/aaravvemula/Documents/astra-fixed/backend/obj/Debug/net10.0/Astra.Backend.MvcApplicationPartsAssemblyInfo.cache
+/Users/aaravvemula/Documents/astra-fixed/backend/obj/Debug/net10.0/rjimswa.dswa.cache.json
+/Users/aaravvemula/Documents/astra-fixed/backend/obj/Debug/net10.0/rjsmrazor.dswa.cache.json
+/Users/aaravvemula/Documents/astra-fixed/backend/obj/Debug/net10.0/rjsmcshtml.dswa.cache.json
+/Users/aaravvemula/Documents/astra-fixed/backend/obj/Debug/net10.0/scopedcss/bundle/Astra.Backend.styles.css
+/Users/aaravvemula/Documents/astra-fixed/backend/obj/Debug/net10.0/staticwebassets.build.json
+/Users/aaravvemula/Documents/astra-fixed/backend/obj/Debug/net10.0/staticwebassets.build.json.cache
+/Users/aaravvemula/Documents/astra-fixed/backend/obj/Debug/net10.0/staticwebassets.development.json
+/Users/aaravvemula/Documents/astra-fixed/backend/obj/Debug/net10.0/staticwebassets.build.endpoints.json
+/Users/aaravvemula/Documents/astra-fixed/backend/obj/Debug/net10.0/swae.build.ex.cache
+/Users/aaravvemula/Documents/astra-fixed/backend/obj/Debug/net10.0/Astra.Backend.dll
+/Users/aaravvemula/Documents/astra-fixed/backend/obj/Debug/net10.0/refint/Astra.Backend.dll
+/Users/aaravvemula/Documents/astra-fixed/backend/obj/Debug/net10.0/Astra.Backend.pdb
+/Users/aaravvemula/Documents/astra-fixed/backend/obj/Debug/net10.0/Astra.Backend.genruntimeconfig.cache
+/Users/aaravvemula/Documents/astra-fixed/backend/obj/Debug/net10.0/ref/Astra.Backend.dll
+/Users/aaravvemula/Documents/astra unity/astra-fixed/backend/obj/Debug/net10.0/rpswa.dswa.cache.json
+/Users/aaravvemula/Documents/astra unity/astra-fixed/backend/obj/Debug/net10.0/Astra.Backend.GeneratedMSBuildEditorConfig.editorconfig
+/Users/aaravvemula/Documents/astra unity/astra-fixed/backend/obj/Debug/net10.0/Astra.Backend.AssemblyInfoInputs.cache
+/Users/aaravvemula/Documents/astra unity/astra-fixed/backend/obj/Debug/net10.0/Astra.Backend.AssemblyInfo.cs
+/Users/aaravvemula/Documents/astra unity/astra-fixed/backend/obj/Debug/net10.0/Astra.Backend.csproj.CoreCompileInputs.cache
+/Users/aaravvemula/Documents/astra unity/astra-fixed/backend/obj/Debug/net10.0/Astra.Backend.MvcApplicationPartsAssemblyInfo.cache
+/Users/aaravvemula/Documents/astra unity/astra-fixed/backend/obj/Debug/net10.0/Astra.Backend.dll
+/Users/aaravvemula/Documents/astra unity/astra-fixed/backend/obj/Debug/net10.0/refint/Astra.Backend.dll
+/Users/aaravvemula/Documents/astra unity/astra-fixed/backend/obj/Debug/net10.0/Astra.Backend.pdb
+/Users/aaravvemula/Documents/astra unity/astra-fixed/backend/bin/Debug/net10.0/Astra.Backend.staticwebassets.endpoints.json
+/Users/aaravvemula/Documents/astra unity/astra-fixed/backend/bin/Debug/net10.0/appsettings.json
+/Users/aaravvemula/Documents/astra unity/astra-fixed/backend/bin/Debug/net10.0/Astra.Backend
+/Users/aaravvemula/Documents/astra unity/astra-fixed/backend/bin/Debug/net10.0/Astra.Backend.deps.json
+/Users/aaravvemula/Documents/astra unity/astra-fixed/backend/bin/Debug/net10.0/Astra.Backend.runtimeconfig.json
+/Users/aaravvemula/Documents/astra unity/astra-fixed/backend/bin/Debug/net10.0/Astra.Backend.dll
+/Users/aaravvemula/Documents/astra unity/astra-fixed/backend/bin/Debug/net10.0/Astra.Backend.pdb
+/Users/aaravvemula/Documents/astra unity/astra-fixed/backend/obj/Debug/net10.0/rjimswa.dswa.cache.json
+/Users/aaravvemula/Documents/astra unity/astra-fixed/backend/obj/Debug/net10.0/rjsmrazor.dswa.cache.json
+/Users/aaravvemula/Documents/astra unity/astra-fixed/backend/obj/Debug/net10.0/rjsmcshtml.dswa.cache.json
+/Users/aaravvemula/Documents/astra unity/astra-fixed/backend/obj/Debug/net10.0/scopedcss/bundle/Astra.Backend.styles.css
+/Users/aaravvemula/Documents/astra unity/astra-fixed/backend/obj/Debug/net10.0/staticwebassets.build.json
+/Users/aaravvemula/Documents/astra unity/astra-fixed/backend/obj/Debug/net10.0/staticwebassets.build.json.cache
+/Users/aaravvemula/Documents/astra unity/astra-fixed/backend/obj/Debug/net10.0/staticwebassets.development.json
+/Users/aaravvemula/Documents/astra unity/astra-fixed/backend/obj/Debug/net10.0/staticwebassets.build.endpoints.json
+/Users/aaravvemula/Documents/astra unity/astra-fixed/backend/obj/Debug/net10.0/swae.build.ex.cache
+/Users/aaravvemula/Documents/astra unity/astra-fixed/backend/obj/Debug/net10.0/Astra.Backend.genruntimeconfig.cache
+/Users/aaravvemula/Documents/astra unity/astra-fixed/backend/obj/Debug/net10.0/ref/Astra.Backend.dll
+/Users/aaravvemula/Documents/astra unity/astra-fixed/backend/obj/Debug/net10.0/Astra.Backend.csproj.AssemblyReference.cache
+/Users/aaravvemula/Documents/astra unity/astra-fixed/backend/bin/Debug/net10.0/Microsoft.Data.Sqlite.dll
+/Users/aaravvemula/Documents/astra unity/astra-fixed/backend/bin/Debug/net10.0/SQLitePCLRaw.batteries_v2.dll
+/Users/aaravvemula/Documents/astra unity/astra-fixed/backend/bin/Debug/net10.0/SQLitePCLRaw.core.dll
+/Users/aaravvemula/Documents/astra unity/astra-fixed/backend/bin/Debug/net10.0/SQLitePCLRaw.provider.e_sqlite3.dll
+/Users/aaravvemula/Documents/astra unity/astra-fixed/backend/bin/Debug/net10.0/runtimes/browser-wasm/nativeassets/net9.0/e_sqlite3.a
+/Users/aaravvemula/Documents/astra unity/astra-fixed/backend/bin/Debug/net10.0/runtimes/linux-arm/native/libe_sqlite3.so
+/Users/aaravvemula/Documents/astra unity/astra-fixed/backend/bin/Debug/net10.0/runtimes/linux-arm64/native/libe_sqlite3.so
+/Users/aaravvemula/Documents/astra unity/astra-fixed/backend/bin/Debug/net10.0/runtimes/linux-armel/native/libe_sqlite3.so
+/Users/aaravvemula/Documents/astra unity/astra-fixed/backend/bin/Debug/net10.0/runtimes/linux-mips64/native/libe_sqlite3.so
+/Users/aaravvemula/Documents/astra unity/astra-fixed/backend/bin/Debug/net10.0/runtimes/linux-musl-arm/native/libe_sqlite3.so
+/Users/aaravvemula/Documents/astra unity/astra-fixed/backend/bin/Debug/net10.0/runtimes/linux-musl-arm64/native/libe_sqlite3.so
+/Users/aaravvemula/Documents/astra unity/astra-fixed/backend/bin/Debug/net10.0/runtimes/linux-musl-riscv64/native/libe_sqlite3.so
+/Users/aaravvemula/Documents/astra unity/astra-fixed/backend/bin/Debug/net10.0/runtimes/linux-musl-s390x/native/libe_sqlite3.so
+/Users/aaravvemula/Documents/astra unity/astra-fixed/backend/bin/Debug/net10.0/runtimes/linux-musl-x64/native/libe_sqlite3.so
+/Users/aaravvemula/Documents/astra unity/astra-fixed/backend/bin/Debug/net10.0/runtimes/linux-ppc64le/native/libe_sqlite3.so
+/Users/aaravvemula/Documents/astra unity/astra-fixed/backend/bin/Debug/net10.0/runtimes/linux-riscv64/native/libe_sqlite3.so
+/Users/aaravvemula/Documents/astra unity/astra-fixed/backend/bin/Debug/net10.0/runtimes/linux-s390x/native/libe_sqlite3.so
+/Users/aaravvemula/Documents/astra unity/astra-fixed/backend/bin/Debug/net10.0/runtimes/linux-x64/native/libe_sqlite3.so
+/Users/aaravvemula/Documents/astra unity/astra-fixed/backend/bin/Debug/net10.0/runtimes/linux-x86/native/libe_sqlite3.so
+/Users/aaravvemula/Documents/astra unity/astra-fixed/backend/bin/Debug/net10.0/runtimes/maccatalyst-arm64/native/libe_sqlite3.dylib
+/Users/aaravvemula/Documents/astra unity/astra-fixed/backend/bin/Debug/net10.0/runtimes/maccatalyst-x64/native/libe_sqlite3.dylib
+/Users/aaravvemula/Documents/astra unity/astra-fixed/backend/bin/Debug/net10.0/runtimes/osx-arm64/native/libe_sqlite3.dylib
+/Users/aaravvemula/Documents/astra unity/astra-fixed/backend/bin/Debug/net10.0/runtimes/osx-x64/native/libe_sqlite3.dylib
+/Users/aaravvemula/Documents/astra unity/astra-fixed/backend/bin/Debug/net10.0/runtimes/win-arm64/native/e_sqlite3.dll
+/Users/aaravvemula/Documents/astra unity/astra-fixed/backend/bin/Debug/net10.0/runtimes/win-x64/native/e_sqlite3.dll
+/Users/aaravvemula/Documents/astra unity/astra-fixed/backend/bin/Debug/net10.0/runtimes/win-x86/native/e_sqlite3.dll
+/Users/aaravvemula/Documents/astra unity/astra-fixed/backend/obj/Debug/net10.0/Astra.Ba.27CAC738.Up2Date
