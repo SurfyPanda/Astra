@@ -1,0 +1,31 @@
+.orb { position: relative; width: 205px; height: 205px; display: grid; place-items: center; margin: 18px auto 8px; }
+.orb-rings { position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible; }
+.ring { fill: none; stroke: var(--cyan); transform-origin: 100px 100px; }
+.ring-1 { stroke-width: 1; opacity: .28; animation: spin 18s linear infinite; stroke-dasharray: 3 15; }
+.ring-2 { stroke-width: 1.2; opacity: .17; animation: spin 12s linear infinite reverse; stroke-dasharray: 35 18; }
+.ring-3 { stroke-width: 1.5; opacity: .22; animation: spin 7s linear infinite; stroke-dasharray: 52 220; }
+.tick { stroke: var(--cyan); stroke-width: 1; opacity: .18; }
+@keyframes spin { to { transform: rotate(360deg); } }
+.orb-core { position: relative; width: 84px; height: 84px; border-radius: 50%; background: radial-gradient(circle at 36% 30%, #f3ffff 0%, #8ef4e5 28%, #3e9b90 58%, #173b3a 100%); box-shadow: 0 0 30px rgba(98,234,216,.30), 0 0 90px rgba(98,234,216,.12), inset 0 0 20px rgba(255,255,255,.28); animation: breathe 4.8s ease-in-out infinite; }
+.core-inner { position: absolute; inset: 24%; border-radius: 50%; background: radial-gradient(circle, #ffffff, rgba(255,255,255,.18) 58%, transparent 72%); filter: blur(1px); }
+.core-flare { position: absolute; inset: -16%; border-radius: 50%; background: radial-gradient(circle, rgba(98,234,216,.22), transparent 68%); animation: flare 3s ease-in-out infinite; }
+@keyframes breathe { 0%,100% { transform: scale(1); } 50% { transform: scale(1.045); } }
+@keyframes flare { 0%,100% { opacity: .3; transform: scale(.96); } 50% { opacity: .8; transform: scale(1.04); } }
+.orb--thinking .ring-1 { animation-duration: 2.8s; }
+.orb--thinking .ring-2 { animation-duration: 2s; }
+.orb--thinking .ring-3 { animation-duration: 1.3s; }
+.orb--thinking .orb-core { animation-duration: 1.2s; box-shadow: 0 0 34px rgba(246,200,111,.28), 0 0 95px rgba(98,234,216,.12); }
+.orb--listening .orb-core { box-shadow: 0 0 40px rgba(98,234,216,.4), 0 0 100px rgba(98,234,216,.16); }
+.orb-ripples { position: absolute; inset: 0; }
+.ripple { position: absolute; inset: 22%; border: 1px solid rgba(98,234,216,.4); border-radius: 50%; opacity: 0; }
+.orb--listening .ripple { animation: ripple 1.6s ease-out infinite; }
+.orb--listening .r2 { animation-delay: .5s; }
+.orb--listening .r3 { animation-delay: 1s; }
+@keyframes ripple { 0% { transform: scale(.68); opacity: .6; } 100% { transform: scale(1.55); opacity: 0; } }
+.orb-waveform { position: absolute; bottom: 2px; display: flex; gap: 3px; align-items: end; height: 22px; }
+.orb-waveform .bar { width: 3px; height: 6px; border-radius: 4px; background: var(--cyan); animation: wave .8s ease-in-out infinite; box-shadow: 0 0 8px rgba(98,234,216,.45); }
+@keyframes wave { 0%,100% { height: 5px; } 50% { height: 20px; } }
+.orb-particles { position: absolute; inset: 0; pointer-events: none; }
+.particle { position: absolute; left: 50%; top: 50%; width: 3px; height: 3px; border-radius: 50%; background: var(--cyan); opacity: .45; transform: rotate(var(--angle)) translateY(-75px); animation: drift 5s linear infinite; }
+@keyframes drift { 0% { opacity: 0; } 20% { opacity: .5; } 60% { opacity: .18; } 100% { opacity: 0; transform: rotate(calc(var(--angle) + 75deg)) translateY(-75px); } }
+@media (prefers-reduced-motion: reduce) { .orb * { animation: none !important; } }

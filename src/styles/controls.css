@@ -1,0 +1,39 @@
+.composer-wrap { position: relative; padding: 14px 34px 20px; border-top: 1px solid var(--edge); background: linear-gradient(180deg, rgba(8,11,15,.68), rgba(8,11,15,.94)); }
+.voice-error { max-width: 900px; margin: 0 auto 8px; display: flex; align-items: center; gap: 8px; color: #ffd1d7; font-size: 10px; }
+.voice-error span { width: 17px; height: 17px; display: grid; place-items: center; border-radius: 50%; background: rgba(255,119,136,.14); border: 1px solid rgba(255,119,136,.25); color: var(--danger); font: 10px var(--mono); }
+.composer { max-width: 900px; margin: 0 auto; display: flex; align-items: stretch; gap: 8px; padding: 7px; border: 1px solid rgba(140,160,180,.14); border-radius: 17px; background: rgba(15,20,26,.92); box-shadow: 0 10px 35px rgba(0,0,0,.24), inset 0 1px 0 rgba(255,255,255,.02); }
+.mic-button, .utility-button, .send-button { flex: none; border: 0; cursor: pointer; transition: .18s ease; }
+.mic-button { width: 48px; border-radius: 12px; color: var(--cyan); background: rgba(98,234,216,.08); border: 1px solid rgba(98,234,216,.16); font-size: 14px; }
+.mic-button:hover:not(:disabled) { background: rgba(98,234,216,.15); box-shadow: 0 0 20px rgba(98,234,216,.10); }
+.mic-button.is-listening { color: #0c1516; background: var(--cyan); box-shadow: 0 0 24px rgba(98,234,216,.28); }
+.mic-button.is-starting { animation: micPulse 1s ease-in-out infinite; }
+.mic-button:disabled { opacity: .35; cursor: not-allowed; }
+@keyframes micPulse { 0%,100% { box-shadow: 0 0 8px rgba(98,234,216,.12); } 50% { box-shadow: 0 0 24px rgba(98,234,216,.30); } }
+.mic-icon, .utility-icon { width: 17px; height: 17px; fill: none; stroke: currentColor; stroke-width: 1.7; stroke-linecap: round; stroke-linejoin: round; display: inline-block; vertical-align: middle; }
+.mic-stop { width: 11px; height: 11px; display: inline-block; border-radius: 3px; background: currentColor; }
+.input-zone { min-width: 0; flex: 1; display: flex; flex-direction: column; justify-content: center; }
+.command-input { width: 100%; min-height: 38px; max-height: 120px; resize: vertical; border: 0; outline: 0; background: transparent; color: var(--text); padding: 7px 7px 2px; font-size: 14px; line-height: 1.5; }
+.command-input::placeholder { color: var(--muted-2); }
+.input-meta { display: flex; justify-content: space-between; gap: 10px; padding: 2px 7px 1px; color: var(--muted-2); font: 8px var(--mono); letter-spacing: .06em; }
+.input-mode { color: rgba(98,234,216,.48); }
+.utility-button { width: 42px; border-radius: 11px; color: var(--muted); background: rgba(255,255,255,.03); border: 1px solid transparent; }
+.utility-button:hover { color: var(--text); border-color: var(--edge); background: rgba(255,255,255,.05); }
+.utility-button.is-active { color: var(--cyan); }
+.send-button { width: 50px; border-radius: 12px; color: #071011; background: var(--cyan); font-size: 19px; font-weight: 600; }
+.send-button:hover:not(:disabled) { transform: translateY(-1px); box-shadow: 0 0 22px rgba(98,234,216,.22); }
+.send-button:disabled { color: rgba(7,16,17,.45); background: rgba(98,234,216,.34); cursor: not-allowed; }
+
+.command-palette { position: absolute; left: 34px; right: 34px; bottom: calc(100% - 5px); max-width: 900px; margin: 0 auto; padding: 6px; list-style: none; background: rgba(11,15,20,.98); border: 1px solid var(--edge-strong); border-radius: 14px; box-shadow: 0 -18px 50px rgba(0,0,0,.48); backdrop-filter: blur(16px); z-index: 20; }
+.command-palette li { display: flex; align-items: center; gap: 12px; padding: 9px 11px; border-radius: 9px; cursor: pointer; }
+.command-palette li.selected, .command-palette li:hover { background: rgba(98,234,216,.07); }
+.palette-cmd { min-width: 95px; color: var(--cyan); font: 10px var(--mono); }
+.palette-desc { color: var(--muted); font-size: 10px; }
+
+@media (max-width: 900px) {
+  .composer-wrap { padding: 10px 12px 12px; }
+  .command-palette { left: 12px; right: 12px; }
+  .input-meta { display: none; }
+  .utility-button { width: 38px; }
+  .send-button { width: 44px; }
+  .mic-button { width: 44px; }
+}

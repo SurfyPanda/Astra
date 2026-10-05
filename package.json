@@ -1,21 +1,20 @@
 {
-  "name": "astra",
+  "name": "astra-frontend",
   "private": true,
   "version": "1.0.0",
-  "description": "ASTRA — an original AI assistant: React + CSS HUD, C# backend, pluggable LLM brain.",
+  "type": "module",
   "scripts": {
-    "install:all": "npm --prefix frontend install",
-    "proxy": "node proxy/server.js",
-    "doctor": "node proxy/doctor.js",
-    "backend": "dotnet run --project backend --urls http://localhost:5175",
-    "frontend": "npm --prefix frontend run dev",
-    "dev": "concurrently -n proxy,backend,frontend -c magenta,cyan,yellow \"npm run proxy\" \"npm run backend\" \"npm run frontend\"",
-    "start": "./start.sh",
-    "stop": "./stop.sh",
-    "test": "npm --prefix frontend test",
-    "build": "dotnet build backend && npm --prefix frontend run build"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "node test/wakePhrase.test.mjs && node test/commandCapture.test.mjs && node test/chatTitle.test.mjs"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
   },
   "devDependencies": {
-    "concurrently": "^9.1.2"
+    "@vitejs/plugin-react": "^4.3.4",
+    "vite": "^6.0.7"
   }
 }
